@@ -3,7 +3,9 @@ name: Pull and Push
 on:
   push:
     branches: [ master ]
-workflow_dispatch:
+  pull_request:
+    branches: [ new ]
+  workflow_dispatch:
 
 jobs:
   build:
