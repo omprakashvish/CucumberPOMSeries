@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 	private WebDriver driver;
 
-	
 	// 1. By Locators: OR
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
