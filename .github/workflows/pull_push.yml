@@ -3,6 +3,8 @@ name: Pull and Push
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ new ]
   workflow_dispatch:
 
 jobs:
